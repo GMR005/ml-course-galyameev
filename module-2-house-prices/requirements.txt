@@ -1,0 +1,9 @@
+# module-2-house-prices/requirements.txt
+# Версии зафиксированы по фактически использованному окружению.
+numpy==2.4.6
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.0
+joblib==1.5.3
+requests==2.34.2

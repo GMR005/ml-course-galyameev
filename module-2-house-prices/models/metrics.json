@@ -1,0 +1,53 @@
+{
+  "dataset": "House Prices - Advanced Regression Techniques",
+  "n_features": 220,
+  "n_train": 1159,
+  "n_test": 290,
+  "models": {
+    "linear_regression": {
+      "rmse_log": 0.12560259637061216,
+      "mae_log": 0.08969933105032145,
+      "r2_log": 0.8935917300979426,
+      "rmse_real": 22786.829693497984,
+      "mae_real": 15533.288111791078,
+      "r2_real": 0.8969423364885738,
+      "train_time_sec": 0.023500680923461914
+    },
+    "ridge": {
+      "best_alpha": 100.0,
+      "rmse_log": 0.12506295489235986,
+      "r2_log": 0.8945041150730451,
+      "rmse_real": 22717.074872387628,
+      "r2_real": 0.8975723289784635,
+      "train_time_sec": 0.00315093994140625
+    },
+    "lasso": {
+      "best_alpha": 0.003,
+      "rmse_log": 0.12218955412976333,
+      "r2_log": 0.8992960957505574,
+      "rmse_real": 22007.95226694472,
+      "r2_real": 0.9038671650084682,
+      "train_time_sec": 0.06940031051635742,
+      "n_features_dropped": 44,
+      "n_features_selected": 176
+    },
+    "elasticnet": {
+      "best_alpha": 0.005,
+      "best_l1_ratio": 0.7,
+      "rmse_log": 0.12228491254499324,
+      "r2_log": 0.8991388529824953,
+      "rmse_real": 21982.286494707943,
+      "r2_real": 0.9040912553477825,
+      "train_time_sec": 0.06426596641540527
+    }
+  },
+  "best_model": "ElasticNet",
+  "final_metrics_on_test": {
+    "rmse_log": 0.11858521683597477,
+    "mae_log": 0.07871676254328851,
+    "r2_log": 0.9051495813203996,
+    "rmse_real": 20252.351875223845,
+    "mae_real": 13421.449419336392,
+    "r2_real": 0.9185926893004054
+  }
+}
