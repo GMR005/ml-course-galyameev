@@ -20,6 +20,7 @@ ENV/
 !module-1-titanic/data/gender_submission.csv
 !module-2-house-prices/data/train.csv
 !module-2-house-prices/data/test.csv
+!module-3-churn/data/telco_churn.csv
 
 # 🤖 Модели (крупные бинарники — по необходимости)
 # module-1-titanic/models/*.pkl
