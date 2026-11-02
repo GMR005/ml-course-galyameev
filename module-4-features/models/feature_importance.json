@@ -1,0 +1,26 @@
+{
+  "top_features": [
+    "ExitRates",
+    "Administrative_Duration",
+    "TotalDuration",
+    "ProductRelated_Duration",
+    "AvgPageValue",
+    "ProductRelated",
+    "TotalPages",
+    "TrafficType",
+    "MonthNum",
+    "BounceExitRatio",
+    "Administrative",
+    "PageValues",
+    "BounceRates",
+    "Informational_Duration",
+    "Region"
+  ],
+  "top5": [
+    "ExitRates",
+    "Administrative_Duration",
+    "TotalDuration",
+    "ProductRelated_Duration",
+    "AvgPageValue"
+  ]
+}

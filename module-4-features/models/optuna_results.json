@@ -1,0 +1,17 @@
+{
+  "baseline_test_auc": 0.927706484710233,
+  "optuna_test_auc": 0.9321783521419743,
+  "best_cv_auc": 0.9356379680452127,
+  "gain_percent": 0.4820347281649222,
+  "best_params": {
+    "n_estimators": 350,
+    "num_leaves": 20,
+    "max_depth": 9,
+    "learning_rate": 0.010408675812632754,
+    "subsample": 0.8935991832373917,
+    "colsample_bytree": 0.6291728459728663,
+    "min_child_samples": 38,
+    "reg_alpha": 1.1215800870961967,
+    "reg_lambda": 0.003709760585762923
+  }
+}
